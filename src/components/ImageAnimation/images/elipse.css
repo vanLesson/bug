@@ -1,0 +1,97 @@
+body{
+    background-color: #262626;
+}
+/*#el1{*/
+/*    position: absolute;*/
+/*    width: 5vw;*/
+/*    left: 0vw;*/
+/*}*/
+/*#el2{*/
+/*    position: absolute;*/
+/*    width: 15vw;*/
+/*    left: 7vw;*/
+/*    top: 6vw;*/
+/*}*/
+/*#el3{*/
+/*    position: absolute;*/
+/*    width: 28vw;*/
+/*    left: 0vw;*/
+/*    top: 16.4vw;*/
+
+/*}*/
+/*#el4{*/
+/*    position: absolute;*/
+/*    width: 17vw;*/
+/*    left: 75vw;*/
+/*    top: 33vw;*/
+/*}*/
+/*#el5{*/
+/*    position: absolute;*/
+/*    width: 15vw;*/
+/*    left: 83vw;*/
+/*    top: 12vw;*/
+/*}*/
+/*#el6{*/
+/*    position: absolute;*/
+/*    width: 18vw;*/
+/*    left: 82vw;*/
+/*    top:0;*/
+/*}*/
+/*#el7{*/
+/*    position: absolute;*/
+/*    width: 10vw;*/
+/*    left: 35vw;*/
+/*    top: 1vw;*/
+/*}*/
+/*#main1{*/
+/*    position: absolute;*/
+/*    width: 15vw;*/
+/*    left: 8vw;*/
+/*    top: 0vw;*/
+/*    z-index: 2;*/
+/*}*/
+/*#main2{*/
+/*    position: absolute;*/
+/*    width: 18.7vw;*/
+/*    left: 4vw;*/
+/*    top: 33vw;*/
+/*    z-index: 2;*/
+/*}*/
+/*#main3{*/
+/*    position: absolute;*/
+/*    width: 15vw;*/
+/*    left: 83vw;*/
+/*    top: 18vw;*/
+/*    z-index: 2;*/
+/*}*/
+/*#main4{*/
+/*    position: absolute;*/
+/*    width: 10vw;*/
+/*    left: 81vw;*/
+/*    top: 39vw;*/
+/*    z-index: 2;*/
+/*}*/
+/*@keyframes shake {*/
+/*    0% { transform: translate(5px, 3px) rotate(0deg); }*/
+/*    10% { transform: translate(2px, -3px) rotate(-2deg); }*/
+/*    20% { transform: translate(-3px, 0px) rotate(-4deg); }*/
+/*    30% { transform: translate(0px, 4px) rotate(0deg); }*/
+/*    40% { transform: translate(1px, -5px) rotate(4deg); }*/
+/*    50% { transform: translate(-4px, 6px) rotate(-2deg); }*/
+/*    60% { transform: translate(-5px, 3px) rotate(0deg); }*/
+/*    70% { transform: translate(3px, 1px) rotate(-2deg); }*/
+/*    80% { transform: translate(-1px, -1px) rotate(2deg); }*/
+/*    90% { transform: translate(2px, 2px) rotate(0deg); }*/
+/*    100% { transform: translate(5px, 3px) rotate(-2deg); }*/
+/*}*/
+/*.shake:hover,*/
+/*.shake:focus {*/
+/*    animation-name: shake;*/
+/*    animation-duration: 1.2s;*/
+/*    transform-origin:50% 50%;*/
+/*    animation-iteration-count: infinite;*/
+/*    animation-timing-function: linear;*/
+/*}*/
+/*.shake {*/
+/*    display:inline-block;*/
+/*}*/

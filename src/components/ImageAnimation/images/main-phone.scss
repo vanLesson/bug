@@ -1,0 +1,2461 @@
+.arr{display: none}
+
+@media (width: 375px) {
+  .h1-container{
+transform: translateY(20vw);
+  }
+  body{
+    overflow: visible;
+  }
+  .arr,.slide1-phone,.first-h1-phone,.slide2-phone,.div-wraper,.slide2-div1-phone,.slide2-div2-phone,.slide2-div3-phone,.slide3-phone,.slide3-div1-phone,.slide3-div2-phone,.slide3-div3-phone,.slide4-phone,.div-wraper,.slide4-div1-phone,.slide4-div2-phone,.slide4-div2-2-phone,.slide3-div4-phone{
+    display: block;
+  }
+  *{
+    overflow: visible;
+    z-index: 0;
+  }
+  .title{
+    text-align: start !important;
+    width: 60vw;
+    transform: translateY(-4vw) translateX(15vw);
+
+  }
+  @font-face {
+    font-family: Roboto Condensed;
+  src: url("../../fonts/RobotoCondensed-Bold.ttf");
+  }
+  .arr{
+display: block;
+    height: 100vh;
+  }
+  .slide1-phone{
+    background-image: url("./firstSlide.png");
+    background-size: 270vw 100vh;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    transition: all 0.5s;
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+  }
+  .first-h1-phone{
+    position: relative;
+    top: 70vw;
+    width: 80vw;
+    text-align: center;
+    left: 10vw;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 13vw;
+    color: white;
+  }
+  .slide2-phone{
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+  }
+  .div-wraper{
+    width: 100vw;
+    height: 50vh;
+    display: flex;
+  }
+  .slide2-div1-phone{
+width: 50vw;
+    height: 50vh;
+    background-image: url("server.png");
+    background-size: cover;
+    background-position: 70%;
+    flex-grow: 0.5;
+  }
+  .slide2-div1-phone p{
+font-size: 6vw;
+    font-weight: 900;
+    text-align: start;
+    position: relative;
+    top: 50vw;
+    left: 5vw;
+    color: white;
+  }
+  .slide2-div2-phone{
+    width: 50vw;
+    height: 50vh;
+    background-image: url("laptop.png");
+    background-size: cover;
+    background-position: 70%;
+    flex-grow: 0.5;
+  }
+  .slide2-div3-phone{
+    width: 100vw;
+    height: 50vh;
+    background: linear-gradient(107.59deg, #9933FF 0%, #B97AFF 100%);
+  }
+  .slide2-div3-phone h1 {
+    font-family: 'Roboto', sans-serif;
+    width: 95vw;
+    font-size: 11vw;
+    font-weight: 900;
+    text-align: center;
+    position: relative;
+    top: 20vw;
+    color: white;
+    left: 4vw;
+   text-shadow:  3px 3px 3px grey;
+  }
+  .slide3-phone{
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+  }
+  .div-wraper{
+    width: 100vw;
+    height: 50vh;
+    display: flex;
+  }
+  .slide3-div1-phone{
+    width: 50vw;
+    height: 50vh;
+    background-image: url("manWithPhone.png");
+    background-size: cover;
+    background-position: 70%;
+    flex-grow: 0.5;
+  }
+  .slide3-div1-phone p{
+    font-size: 6vw;
+    font-weight: 900;
+    text-align: start;
+    position: relative;
+    top: 50vw;
+    color: white;
+    left: 5vw;
+  }
+  .slide3-div2-phone{
+    width: 50vw;
+    height: 50vh;
+    background-image: url("handle.png");
+    background-size: cover;
+    background-position: 50%;
+    flex-grow: 0.5;
+  }
+  .slide3-div3-phone{
+    width: 100vw;
+    height: 50vh;
+    background: linear-gradient(0deg, #FDD36E, #FDD36E), #8EE200;
+  }
+  .slide3-div3-phone h1 {
+    font-family: 'Roboto', sans-serif;
+    width: 90vw;
+    font-size: 11vw;
+    color: white;
+    font-weight: 900;
+    text-align: center;
+    position: relative;
+    top: 20vw;
+    left: 5vw;
+    text-shadow:3px 3px 3px grey; ;
+  }
+  .slide4-phone{
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+  }
+  .div-wraper{
+    width: 100vw;
+    height: 50vh;
+    display: flex;
+  }
+  .slide4-div1-phone{
+    width: 50vw;
+    height: 50vh;
+    background-image: url("handleWithPhone.png");
+    background-size: cover;
+    background-position: 48%;
+    flex-grow: 0.5;
+  }
+  .slide4-div1-phone p{
+    font-size: 6vw;
+    font-weight: 900;
+    text-align: start;
+    position: relative;
+    color: white;
+    top: 50vw;
+    left: 5vw;
+  }
+  .slide4-div2-phone{
+    width: 50vw;
+    height: 50vh;
+    background: linear-gradient(0deg, #AAE04F, #AAE04F), linear-gradient(0deg, #FF6388, #FF6388);
+    flex-grow: 0.5;
+  }
+  .slide4-div2-2-phone{
+    width: 50vw;
+    height: 50vh;
+    background: linear-gradient(0deg, #70C9DD, #70C9DD), linear-gradient(0deg, #803647, #803647);
+    flex-grow: 0.5;
+  }
+
+  .slide4-div3-phone{
+    width: 100vw;
+    height: 50vh;
+    background: linear-gradient(0deg, #FDD36E, #FDD36E), #8EE200;
+  }
+  .slide4-div2-phone h1 {
+    font-family: 'Roboto', sans-serif;
+    width: 43vw;
+    font-size: 6vw;
+    color: white;
+    font-weight: 900;
+    text-align: center;
+    position: relative;
+    top: 45vw;
+    left: 3vw;
+    text-shadow:3px 3px 3px grey; ;
+  }
+  .slide4-div2-2-phone h1 {
+    font-family: 'Roboto', sans-serif;
+    width: 43vw;
+    font-size: 6vw;
+    font-weight: 900;
+    color: white;
+    text-align: center;
+    position: relative;
+    top: 45vw;
+    left: 3vw;
+    text-shadow:3px 3px 3px grey; ;
+  }
+  .slide3-div4-phone{
+    width: 50vw;
+    height: 50vh;
+    background-image: url("code.png");
+    background-size: cover;
+    background-position: 70%;
+    flex-grow: 1;
+  }
+  .slide5-phone{
+    width: 100vw;
+    height: 111vh;
+    background-color: white;
+    color: black;
+  }
+  .slide5-phone h1{
+    font-size: 10vw;
+    position: relative;
+    top: 15vh;
+    right: 10vw;
+  }
+  .slide5-phone p{
+    width: 70vw;
+
+    color: black;
+    margin-bottom: 5vw;
+  }
+  .p-text{
+    text-align: start;
+    left: 5vw;
+    position: relative;
+    top: 40vw;
+    width: 70vw;
+  }
+  img{
+    position: relative;
+    top: 35vw;
+    width: 100vw;
+  }
+  .man{
+    position: relative;
+    z-index: 1;
+    top: -10vw;
+    width: 60vw;
+    height: 40vh;
+
+  }
+  .blue-rect-phone{
+    background-color: #6295F8;
+    width: 100vw;
+    height: 70vw;
+    position: relative;
+  }
+  .blue-rect-phone h1{
+    position: relative;
+    top: -49vw;
+    width: 20vw;
+    z-index: 3;
+    left: 57vw;
+    font-size: 15vw;
+    color: white;
+  }
+  .slide4-button-next-phone{
+    height: 15.5vw;
+    display: block;
+    min-width: 5vw;
+    position: relative;
+    border: none;
+    top:-75.9vw;
+    left: 40vw;
+    background-image: url("arr.svg");
+    align-self: baseline;
+    background-repeat: no-repeat;
+transform: rotate(180deg);
+    background-position: 50%;
+    z-index: 99999;
+    background-size: 5vw;
+  }
+  .slide4-button-back-phone{
+    height: 15.5vw;
+    display: block;
+    min-width: 15.5vw;
+    position: relative;
+    border: none;
+top:-60.5vw;
+    left: -43vw;
+    background-image: url("arr.svg");
+    align-self: baseline;
+    background-position: 50%;
+    background-repeat: no-repeat;
+background-size: 5vw;
+
+
+    z-index: 99999;
+  }
+.text-container{
+  position: relative;
+  top: 20vw;
+}
+  .slies .somes{
+    font-family: 'Roboto', sans-serif !important;
+
+    height: 10vh !important;
+    opacity: 0.05 !important;
+    left: 0 !important;
+    color: black;
+    top: 42vw !important;
+    font-size: 25vw !important;
+    position: relative !important;
+    z-index: 2000 !important;
+    display: block !important;
+  }
+  .slide5-phone{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    width: 100vw;
+
+
+
+  }
+  .slies{
+    position: relative;
+    top: -49vw;
+  }
+
+
+}
+@media (width: 320px) {
+  .h1-container{
+    transform: translateY(20vw);
+  }
+  .title{
+    text-align: start !important;
+    width: 60vw;
+    transform: translateY(-4vw) translateX(15vw);
+
+  }
+  .arr,.slide1-phone,.first-h1-phone,.slide2-phone,.div-wraper,.slide2-div1-phone,.slide2-div2-phone,.slide2-div3-phone,.slide3-phone,.slide3-div1-phone,.slide3-div2-phone,.slide3-div3-phone,.slide4-phone,.div-wraper,.slide4-div1-phone,.slide4-div2-phone,.slide4-div2-2-phone,.slide3-div4-phone{
+    display: block;
+  }
+  body{
+    overflow: visible;
+  }
+  .arr{
+    display: block;
+    height: 100vh;
+  }
+  .slide1-phone{
+    background-image: url("./firstSlide.png");
+    background-size: 270vw 100vh;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    transition: all 0.5s;
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+  }
+  .first-h1-phone{
+    position: relative;
+    top: 50vw;
+    width: 80vw;
+    text-align: center;
+    left: 10vw;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 13vw;
+    color: white;
+  }
+  .slide2-phone{
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+  }
+  .div-wraper{
+    width: 100vw;
+    height: 50vh;
+    display: flex;
+  }
+  .slide2-div1-phone{
+    width: 50vw;
+    height: 50vh;
+    background-image: url("server.png");
+    background-size: cover;
+    background-position: 100%;
+    flex-grow: 0.5;
+  }
+  .slide2-div1-phone p{
+    font-size: 6vw;
+    font-weight: 900;
+    text-align: start;
+    position: relative;
+    top: 30vw;
+    left: 8vw;
+    color: white;
+  }
+  .slide2-div2-phone{
+    width: 50vw;
+    height: 50vh;
+    background-image: url("laptop.png");
+    background-size: cover;
+    background-position: 70%;
+    flex-grow: 0.5;
+  }
+  .slide2-div3-phone{
+    width: 100vw;
+    height: 50vh;
+    background: linear-gradient(107.59deg, #9933FF 0%, #B97AFF 100%);
+  }
+  .slide2-div3-phone h1 {
+    font-family: 'Roboto', sans-serif;
+    width: 95vw;
+    font-size: 11vw;
+    font-weight: 900;
+    text-align: center;
+    position: relative;
+    top: 20vw;
+    color: white;
+    left: 4vw;
+    text-shadow:  3px 3px 3px grey;
+  }
+  .slide3-phone{
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+  }
+  .div-wraper{
+    width: 100vw;
+    height: 50vh;
+    display: flex;
+  }
+  .slide3-div1-phone{
+    width: 50vw;
+    height: 50vh;
+    background-image: url("manWithPhone.png");
+    background-size: cover;
+    background-position: 70%;
+    flex-grow: 0.5;
+  }
+  .slide3-div1-phone p{
+    font-size: 6vw;
+    font-weight: 900;
+    text-align: start;
+    position: relative;
+    top: 50vw;
+    color: white;
+    left: 5vw;
+  }
+  .slide3-div2-phone{
+    width: 50vw;
+    height: 50vh;
+    background-image: url("handle.png");
+    background-size: cover;
+    background-position: 50%;
+    flex-grow: 0.5;
+  }
+  .slide3-div3-phone{
+    width: 100vw;
+    height: 50vh;
+    background: linear-gradient(0deg, #FDD36E, #FDD36E), #8EE200;
+  }
+  .slide3-div3-phone h1 {
+    font-family: 'Roboto', sans-serif;
+    width: 90vw;
+    font-size: 11vw;
+    color: white;
+    font-weight: 900;
+    text-align: center;
+    position: relative;
+    top: 10vw;
+    left: 5vw;
+    text-shadow:3px 3px 3px grey; ;
+  }
+  .slide4-phone{
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+  }
+  .div-wraper{
+    width: 100vw;
+    height: 50vh;
+    display: flex;
+  }
+  .slide4-div1-phone{
+    width: 50vw;
+    height: 50vh;
+    background-image: url("handleWithPhone.png");
+    background-size: cover;
+    background-position: 48%;
+    flex-grow: 0.5;
+  }
+  .slide4-div1-phone p{
+    font-size: 6vw;
+    font-weight: 900;
+    text-align: start;
+    position: relative;
+    color: white;
+    top: 40vw;
+    left: 5vw;
+  }
+  .slide4-div2-phone{
+    width: 50vw;
+    height: 50vh;
+    background: linear-gradient(0deg, #AAE04F, #AAE04F), linear-gradient(0deg, #FF6388, #FF6388);
+    flex-grow: 0.5;
+  }
+  .slide4-div2-2-phone{
+    width: 50vw;
+    height: 50vh;
+    background: linear-gradient(0deg, #70C9DD, #70C9DD), linear-gradient(0deg, #803647, #803647);
+    flex-grow: 0.5;
+  }
+
+  .slide4-div3-phone{
+    width: 100vw;
+    height: 50vh;
+    background: linear-gradient(0deg, #FDD36E, #FDD36E), #8EE200;
+  }
+  .slide4-div2-phone h1 {
+    font-family: 'Roboto', sans-serif;
+    width: 43vw;
+    font-size: 6vw;
+    color: white;
+    font-weight: 900;
+    text-align: center;
+    position: relative;
+    top: 35vw;
+    left: 3vw;
+    text-shadow:3px 3px 3px grey; ;
+  }
+  .slide4-div2-2-phone h1 {
+    font-family: 'Roboto', sans-serif;
+    width: 43vw;
+    font-size: 6vw;
+    font-weight: 900;
+    color: white;
+    text-align: center;
+    position: relative;
+    top: 35vw;
+    left: 3vw;
+    text-shadow:3px 3px 3px grey; ;
+  }
+  .slide3-div4-phone{
+    width: 50vw;
+    height: 50vh;
+    background-image: url("code.png");
+    background-size: cover;
+    background-position: 70%;
+    flex-grow: 1;
+  }
+  .slide5-phone{
+    width: 100vw;
+    height: 111vh;
+    background-color: white;
+    color: black;
+  }
+  .slide5-phone h1{
+    font-size: 10vw;
+    position: relative;
+    top: 20vh;
+    right: 10vw;
+  }
+  .slide5-phone p{
+    width: 70vw;
+
+    color: black;
+    margin-bottom: 5vw;
+  }
+  .p-text{
+    text-align: start;
+    left: 5vw;
+    position: relative;
+    top: 40vw;
+    width: 70vw;
+  }
+  img{
+    position: relative;
+    top: 35vw;
+    width: 100vw;
+  }
+  .man{
+    position: relative;
+    z-index: 1;
+    top: -10vw;
+    width: 60vw;
+    height: 40vh;
+
+  }
+  .blue-rect-phone{
+    background-color: #6295F8;
+    width: 100vw;
+    height: 70vw;
+    position: relative;
+  }
+  .blue-rect-phone h1{
+    position: relative;
+    top: -49vw;
+    width: 20vw;
+    z-index: 3;
+    left: 57vw;
+    font-size: 15vw;
+    color: white;
+  }
+  .slide4-button-next-phone{
+    height: 15.5vw;
+    display: block;
+    min-width: 5vw;
+    position: relative;
+    border: none;
+    top:-95.9vw;
+    left: 40vw;
+    background-image: url("arr.svg");
+    align-self: baseline;
+    background-repeat: no-repeat;
+    transform: rotate(180deg);
+    background-position: 50%;
+    z-index: 99999;
+    background-size: 5vw;
+  }
+  .slide4-button-back-phone{
+    height: 15.5vw;
+    display: block;
+    min-width: 15.5vw;
+    position: relative;
+    border: none;
+    top:-80.5vw;
+    left: -43vw;
+    background-image: url("arr.svg");
+    align-self: baseline;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: 5vw;
+
+
+    z-index: 99999;
+  }
+  .somes{
+    position: relative;
+    transform: translateY(-20vw)  }
+  .slies .somes{
+    font-family: 'Roboto', sans-serif !important;
+
+    height: 10vh !important;
+    opacity: 0.05 !important;
+    left: 0 !important;
+    color: black;
+    top: 82vw !important;
+    font-size: 25vw !important;
+    position: relative !important;
+    z-index: 2000 !important;
+    display: block !important;
+  }
+  .slide5-phone{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    width: 100vw;
+
+
+
+  }
+  .slies{
+    position: relative;
+    top: -49vw;
+  }
+  .slide4-button-next-phone{
+    top: -50vw;
+  }
+  .slide4-button-back-phone{
+    top: -35vw;
+  }
+  .slies{
+    z-index: -1;
+    top: -50vw;
+    height: 30vh;
+  }
+  .somes{
+    position: relative;
+    transform: translateY(-33vw)  }
+
+}
+
+@media (width: 360px) {
+  .h1-container{
+    transform: translateY(20vw);
+  }
+  .title{
+    text-align: start !important;
+    width: 60vw;
+    transform: translateY(0vw) translateX(15vw);
+
+  }
+  .arr,.slide1-phone,.first-h1-phone,.slide2-phone,.div-wraper,.slide2-div1-phone,.slide2-div2-phone,.slide2-div3-phone,.slide3-phone,.slide3-div1-phone,.slide3-div2-phone,.slide3-div3-phone,.slide4-phone,.div-wraper,.slide4-div1-phone,.slide4-div2-phone,.slide4-div2-2-phone,.slide3-div4-phone{
+    display: block;
+  }
+  body{
+    overflow: visible;
+  }
+  .arr{
+    display: block;
+    height: 100vh;
+  }
+  .slide1-phone{
+    background-image: url("./firstSlide.png");
+    background-size: 270vw 100vh;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    transition: all 0.5s;
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+  }
+  .first-h1-phone{
+    position: relative;
+    top: 50vw;
+    width: 80vw;
+    text-align: center;
+    left: 10vw;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 13vw;
+    color: white;
+  }
+  .slide2-phone{
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+  }
+  .div-wraper{
+    width: 100vw;
+    height: 50vh;
+    display: flex;
+  }
+  .slide2-div1-phone{
+    width: 50vw;
+    height: 50vh;
+    background-image: url("server.png");
+    background-size: cover;
+    background-position: 100%;
+    flex-grow: 0.5;
+  }
+  .slide2-div1-phone p{
+    font-size: 6vw;
+    font-weight: 900;
+    text-align: start;
+    position: relative;
+    top: 30vw;
+    left: 8vw;
+    color: white;
+  }
+  .slide2-div2-phone{
+    width: 50vw;
+    height: 50vh;
+    background-image: url("laptop.png");
+    background-size: cover;
+    background-position: 70%;
+    flex-grow: 0.5;
+  }
+  .slide2-div3-phone{
+    width: 100vw;
+    height: 50vh;
+    background: linear-gradient(107.59deg, #9933FF 0%, #B97AFF 100%);
+  }
+  .slide2-div3-phone h1 {
+    font-family: 'Roboto', sans-serif;
+    width: 95vw;
+    font-size: 11vw;
+    font-weight: 900;
+    text-align: center;
+    position: relative;
+    top: 20vw;
+    color: white;
+    left: 4vw;
+    text-shadow:  3px 3px 3px grey;
+  }
+  .slide3-phone{
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+  }
+  .div-wraper{
+    width: 100vw;
+    height: 50vh;
+    display: flex;
+  }
+  .slide3-div1-phone{
+    width: 50vw;
+    height: 50vh;
+    background-image: url("manWithPhone.png");
+    background-size: cover;
+    background-position: 70%;
+    flex-grow: 0.5;
+  }
+  .slide3-div1-phone p{
+    font-size: 6vw;
+    font-weight: 900;
+    text-align: start;
+    position: relative;
+    top: 50vw;
+    color: white;
+    left: 5vw;
+  }
+  .slide3-div2-phone{
+    width: 50vw;
+    height: 50vh;
+    background-image: url("handle.png");
+    background-size: cover;
+    background-position: 50%;
+    flex-grow: 0.5;
+  }
+  .slide3-div3-phone{
+    width: 100vw;
+    height: 50vh;
+    background: linear-gradient(0deg, #FDD36E, #FDD36E), #8EE200;
+  }
+  .slide3-div3-phone h1 {
+    font-family: 'Roboto', sans-serif;
+    width: 90vw;
+    font-size: 11vw;
+    color: white;
+    font-weight: 900;
+    text-align: center;
+    position: relative;
+    top: 10vw;
+    left: 5vw;
+    text-shadow:3px 3px 3px grey; ;
+  }
+  .slide4-phone{
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+  }
+  .div-wraper{
+    width: 100vw;
+    height: 50vh;
+    display: flex;
+  }
+  .slide4-div1-phone{
+    width: 50vw;
+    height: 50vh;
+    background-image: url("handleWithPhone.png");
+    background-size: cover;
+    background-position: 48%;
+    flex-grow: 0.5;
+  }
+  .slide4-div1-phone p{
+    font-size: 6vw;
+    font-weight: 900;
+    text-align: start;
+    position: relative;
+    color: white;
+    top: 40vw;
+    left: 5vw;
+  }
+  .slide4-div2-phone{
+    width: 50vw;
+    height: 50vh;
+    background: linear-gradient(0deg, #AAE04F, #AAE04F), linear-gradient(0deg, #FF6388, #FF6388);
+    flex-grow: 0.5;
+  }
+  .slide4-div2-2-phone{
+    width: 50vw;
+    height: 50vh;
+    background: linear-gradient(0deg, #70C9DD, #70C9DD), linear-gradient(0deg, #803647, #803647);
+    flex-grow: 0.5;
+  }
+
+  .slide4-div3-phone{
+    width: 100vw;
+    height: 50vh;
+    background: linear-gradient(0deg, #FDD36E, #FDD36E), #8EE200;
+  }
+  .slide4-div2-phone h1 {
+    font-family: 'Roboto', sans-serif;
+    width: 43vw;
+    font-size: 6vw;
+    color: white;
+    font-weight: 900;
+    text-align: center;
+    position: relative;
+    top: 35vw;
+    left: 3vw;
+    text-shadow:3px 3px 3px grey; ;
+  }
+  .slide4-div2-2-phone h1 {
+    font-family: 'Roboto', sans-serif;
+    width: 43vw;
+    font-size: 6vw;
+    font-weight: 900;
+    color: white;
+    text-align: center;
+    position: relative;
+    top: 35vw;
+    left: 3vw;
+    text-shadow:3px 3px 3px grey; ;
+  }
+  .slide3-div4-phone{
+    width: 50vw;
+    height: 50vh;
+    background-image: url("code.png");
+    background-size: cover;
+    background-position: 70%;
+    flex-grow: 1;
+  }
+  .slide5-phone{
+    width: 100vw;
+    height: 111vh;
+    background-color: white;
+    color: black;
+  }
+  .slide5-phone h1{
+    font-size: 10vw;
+    position: relative;
+    top: 20vh;
+    right: 10vw;
+  }
+  .slide5-phone p{
+    width: 70vw;
+
+    color: black;
+    margin-bottom: 5vw;
+  }
+  .p-text{
+    text-align: start;
+    left: 5vw;
+    position: relative;
+    top: 40vw;
+    width: 70vw;
+  }
+  img{
+    position: relative;
+    top: 35vw;
+    width: 100vw;
+  }
+  .man{
+    position: relative;
+    z-index: 1;
+    top: -10vw;
+    width: 60vw;
+    height: 40vh;
+
+  }
+  .blue-rect-phone{
+    background-color: #6295F8;
+    width: 100vw;
+    height: 70vw;
+    position: relative;
+    top:-10vw;
+  }
+  .blue-rect-phone h1{
+    position: relative;
+    top: -49vw;
+    width: 20vw;
+    z-index: 3;
+    left: 57vw;
+    font-size: 15vw;
+    color: white;
+  }
+  .slide4-button-next-phone{
+    height: 15.5vw;
+    display: block;
+    min-width: 5vw;
+    position: relative;
+    border: none;
+    top:-95.9vw;
+    left: 40vw;
+    background-image: url("arr.svg");
+    align-self: baseline;
+    background-repeat: no-repeat;
+    transform: rotate(180deg);
+    background-position: 50%;
+    z-index: 99999;
+    background-size: 5vw;
+  }
+  .slide4-button-back-phone{
+    height: 15.5vw;
+    display: block;
+    min-width: 15.5vw;
+    position: relative;
+    border: none;
+    top:-80.5vw;
+    left: -43vw;
+    background-image: url("arr.svg");
+    align-self: baseline;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: 5vw;
+
+
+    z-index: 99999;
+  }
+  .somes{
+    position: relative;
+    transform: translateY(-20vw)  }
+  .slies .somes{
+    font-family: 'Roboto', sans-serif !important;
+
+    height: 10vh !important;
+    opacity: 0.05 !important;
+    left: 0 !important;
+    color: black;
+    top: 82vw !important;
+    font-size: 25vw !important;
+    position: relative !important;
+    z-index: 2000 !important;
+    display: block !important;
+  }
+  .slide5-phone{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    width: 100vw;
+
+
+
+  }
+  .slies{
+    position: relative;
+    top: -49vw;
+  }
+  .slide4-button-next-phone{
+    top: -50vw;
+  }
+  .slide4-button-back-phone{
+    top: -35vw;
+  }
+.slies{
+  z-index: -1;
+  top: -50vw;
+  height: 30vh;
+}
+
+.somes{
+  position: relative;
+  transform: translateY(-33vw)  }}
+@media (width: 375px )and (height: 667px){
+  .h1-container{
+    transform: translateY(20vw);
+  }
+  .title{
+    text-align: start !important;
+    width: 60vw;
+    transform: translateY(-4vw) translateX(15vw);
+
+  }
+  .arr,.slide1-phone,.first-h1-phone,.slide2-phone,.div-wraper,.slide2-div1-phone,.slide2-div2-phone,.slide2-div3-phone,.slide3-phone,.slide3-div1-phone,.slide3-div2-phone,.slide3-div3-phone,.slide4-phone,.div-wraper,.slide4-div1-phone,.slide4-div2-phone,.slide4-div2-2-phone,.slide3-div4-phone{
+    display: block;
+  }
+  body{
+    overflow: visible;
+  }
+  .arr{
+    display: block;
+    height: 100vh;
+  }
+  .slide1-phone{
+    background-image: url("./firstSlide.png");
+    background-size: 270vw 100vh;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    transition: all 0.5s;
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+  }
+  .first-h1-phone{
+    position: relative;
+    top: 50vw;
+    width: 80vw;
+    text-align: center;
+    left: 10vw;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 13vw;
+    color: white;
+  }
+  .slide2-phone{
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+  }
+  .div-wraper{
+    width: 100vw;
+    height: 50vh;
+    display: flex;
+  }
+  .slide2-div1-phone{
+    width: 50vw;
+    height: 50vh;
+    background-image: url("server.png");
+    background-size: cover;
+    background-position: 100%;
+    flex-grow: 0.5;
+  }
+  .slide2-div1-phone p{
+    font-size: 6vw;
+    font-weight: 900;
+    text-align: start;
+    position: relative;
+    top: 30vw;
+    left: 8vw;
+    color: white;
+  }
+  .slide2-div2-phone{
+    width: 50vw;
+    height: 50vh;
+    background-image: url("laptop.png");
+    background-size: cover;
+    background-position: 70%;
+    flex-grow: 0.5;
+  }
+  .slide2-div3-phone{
+    width: 100vw;
+    height: 50vh;
+    background: linear-gradient(107.59deg, #9933FF 0%, #B97AFF 100%);
+  }
+  .slide2-div3-phone h1 {
+    font-family: 'Roboto', sans-serif;
+    width: 95vw;
+    font-size: 11vw;
+    font-weight: 900;
+    text-align: center;
+    position: relative;
+    top: 20vw;
+    color: white;
+    left: 4vw;
+    text-shadow:  3px 3px 3px grey;
+  }
+  .slide3-phone{
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+  }
+  .div-wraper{
+    width: 100vw;
+    height: 50vh;
+    display: flex;
+  }
+  .slide3-div1-phone{
+    width: 50vw;
+    height: 50vh;
+    background-image: url("manWithPhone.png");
+    background-size: cover;
+    background-position: 70%;
+    flex-grow: 0.5;
+  }
+  .slide3-div1-phone p{
+    font-size: 6vw;
+    font-weight: 900;
+    text-align: start;
+    position: relative;
+    top: 50vw;
+    color: white;
+    left: 5vw;
+  }
+  .slide3-div2-phone{
+    width: 50vw;
+    height: 50vh;
+    background-image: url("handle.png");
+    background-size: cover;
+    background-position: 50%;
+    flex-grow: 0.5;
+  }
+  .slide3-div3-phone{
+    width: 100vw;
+    height: 50vh;
+    background: linear-gradient(0deg, #FDD36E, #FDD36E), #8EE200;
+  }
+  .slide3-div3-phone h1 {
+    font-family: 'Roboto', sans-serif;
+    width: 90vw;
+    font-size: 11vw;
+    color: white;
+    font-weight: 900;
+    text-align: center;
+    position: relative;
+    top: 10vw;
+    left: 5vw;
+    text-shadow:3px 3px 3px grey; ;
+  }
+  .slide4-phone{
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+  }
+  .div-wraper{
+    width: 100vw;
+    height: 50vh;
+    display: flex;
+  }
+  .slide4-div1-phone{
+    width: 50vw;
+    height: 50vh;
+    background-image: url("handleWithPhone.png");
+    background-size: cover;
+    background-position: 48%;
+    flex-grow: 0.5;
+  }
+  .slide4-div1-phone p{
+    font-size: 6vw;
+    font-weight: 900;
+    text-align: start;
+    position: relative;
+    color: white;
+    top: 40vw;
+    left: 5vw;
+  }
+  .slide4-div2-phone{
+    width: 50vw;
+    height: 50vh;
+    background: linear-gradient(0deg, #AAE04F, #AAE04F), linear-gradient(0deg, #FF6388, #FF6388);
+    flex-grow: 0.5;
+  }
+  .slide4-div2-2-phone{
+    width: 50vw;
+    height: 50vh;
+    background: linear-gradient(0deg, #70C9DD, #70C9DD), linear-gradient(0deg, #803647, #803647);
+    flex-grow: 0.5;
+  }
+
+  .slide4-div3-phone{
+    width: 100vw;
+    height: 50vh;
+    background: linear-gradient(0deg, #FDD36E, #FDD36E), #8EE200;
+  }
+  .slide4-div2-phone h1 {
+    font-family: 'Roboto', sans-serif;
+    width: 43vw;
+    font-size: 6vw;
+    color: white;
+    font-weight: 900;
+    text-align: center;
+    position: relative;
+    top: 35vw;
+    left: 3vw;
+    text-shadow:3px 3px 3px grey; ;
+  }
+  .slide4-div2-2-phone h1 {
+    font-family: 'Roboto', sans-serif;
+    width: 43vw;
+    font-size: 6vw;
+    font-weight: 900;
+    color: white;
+    text-align: center;
+    position: relative;
+    top: 35vw;
+    left: 3vw;
+    text-shadow:3px 3px 3px grey; ;
+  }
+  .slide3-div4-phone{
+    width: 50vw;
+    height: 50vh;
+    background-image: url("code.png");
+    background-size: cover;
+    background-position: 70%;
+    flex-grow: 1;
+  }
+  .slide5-phone{
+    width: 100vw;
+    height: 111vh;
+    background-color: white;
+    color: black;
+  }
+  .slide5-phone h1{
+    font-size: 10vw;
+    position: relative;
+    top: 20vh;
+    right: 10vw;
+  }
+  .slide5-phone p{
+    width: 70vw;
+
+    color: black;
+    margin-bottom: 5vw;
+  }
+  .p-text{
+    text-align: start;
+    left: 5vw;
+    position: relative;
+    top: 40vw;
+    width: 70vw;
+  }
+  img{
+    position: relative;
+    top: 35vw;
+    width: 100vw;
+  }
+  .man{
+    position: relative;
+    z-index: 1;
+    top: -10vw;
+    width: 60vw;
+    height: 40vh;
+
+  }
+  .blue-rect-phone{
+    background-color: #6295F8;
+    width: 100vw;
+    height: 70vw;
+    position: relative;
+  }
+  .blue-rect-phone h1{
+    position: relative;
+    top: -49vw;
+    width: 20vw;
+    z-index: 3;
+    left: 57vw;
+    font-size: 15vw;
+    color: white;
+  }
+  .slide4-button-next-phone{
+    height: 15.5vw;
+    display: block;
+    min-width: 5vw;
+    position: relative;
+    border: none;
+    top:-95.9vw;
+    left: 40vw;
+    background-image: url("arr.svg");
+    align-self: baseline;
+    background-repeat: no-repeat;
+    transform: rotate(180deg);
+    background-position: 50%;
+    z-index: 99999;
+    background-size: 5vw;
+  }
+  .slide4-button-back-phone{
+    height: 15.5vw;
+    display: block;
+    min-width: 15.5vw;
+    position: relative;
+    border: none;
+    top:-80.5vw;
+    left: -43vw;
+    background-image: url("arr.svg");
+    align-self: baseline;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: 5vw;
+
+
+    z-index: 99999;
+  }
+
+  .slies .somes{
+    font-family: 'Roboto', sans-serif !important;
+
+    height: 10vh !important;
+    opacity: 0.05 !important;
+    left: 0 !important;
+    color: black;
+    top: 82vw !important;
+    font-size: 25vw !important;
+    position: relative !important;
+    z-index: 2000 !important;
+    display: block !important;
+  }
+  .slide5-phone{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    width: 100vw;
+
+
+
+  }
+  .slies{
+    position: relative;
+    top: -49vw;
+  }
+  .slide4-button-next-phone{
+    top: -50vw;
+  }
+  .slide4-button-back-phone{
+    top: -35vw;
+  }
+  .slies{
+    z-index: -1;
+    top: -50vw;
+    height: 30vh;
+  }
+  .somes{
+    position: relative;
+    transform: translateY(-30vw)  }
+}
+@media (width: 411px) and  (height: 823px){
+  .h1-container{
+    transform: translateY(20vw);
+  }
+  .title{
+    text-align: start !important;
+    width: 60vw;
+    transform: translateY(-4vw) translateX(15vw);
+
+  }
+  .arr,.slide1-phone,.first-h1-phone,.slide2-phone,.div-wraper,.slide2-div1-phone,.slide2-div2-phone,.slide2-div3-phone,.slide3-phone,.slide3-div1-phone,.slide3-div2-phone,.slide3-div3-phone,.slide4-phone,.div-wraper,.slide4-div1-phone,.slide4-div2-phone,.slide4-div2-2-phone,.slide3-div4-phone{
+    display: block;
+  }
+  body{
+    overflow: visible;
+  }
+  .arr{
+    display: block;
+    height: 100vh;
+  }
+  .slide1-phone{
+    background-image: url("./firstSlide.png");
+    background-size: 270vw 100vh;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    transition: all 0.5s;
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+  }
+  .first-h1-phone{
+    position: relative;
+    top: 50vw;
+    width: 80vw;
+    text-align: center;
+    left: 10vw;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 13vw;
+    color: white;
+  }
+  .slide2-phone{
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+  }
+  .div-wraper{
+    width: 100vw;
+    height: 50vh;
+    display: flex;
+  }
+  .slide2-div1-phone{
+    width: 50vw;
+    height: 50vh;
+    background-image: url("server.png");
+    background-size: cover;
+    background-position: 100%;
+    flex-grow: 0.5;
+  }
+  .slide2-div1-phone p{
+    font-size: 6vw;
+    font-weight: 900;
+    text-align: start;
+    position: relative;
+    top: 30vw;
+    left: 8vw;
+    color: white;
+  }
+  .slide2-div2-phone{
+    width: 50vw;
+    height: 50vh;
+    background-image: url("laptop.png");
+    background-size: cover;
+    background-position: 70%;
+    flex-grow: 0.5;
+  }
+  .slide2-div3-phone{
+    width: 100vw;
+    height: 50vh;
+    background: linear-gradient(107.59deg, #9933FF 0%, #B97AFF 100%);
+  }
+  .slide2-div3-phone h1 {
+    font-family: 'Roboto', sans-serif;
+    width: 95vw;
+    font-size: 11vw;
+    font-weight: 900;
+    text-align: center;
+    position: relative;
+    top: 20vw;
+    color: white;
+    left: 4vw;
+    text-shadow:  3px 3px 3px grey;
+  }
+  .slide3-phone{
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+  }
+  .div-wraper{
+    width: 100vw;
+    height: 50vh;
+    display: flex;
+  }
+  .slide3-div1-phone{
+    width: 50vw;
+    height: 50vh;
+    background-image: url("manWithPhone.png");
+    background-size: cover;
+    background-position: 70%;
+    flex-grow: 0.5;
+  }
+  .slide3-div1-phone p{
+    font-size: 6vw;
+    font-weight: 900;
+    text-align: start;
+    position: relative;
+    top: 50vw;
+    color: white;
+    left: 5vw;
+  }
+  .slide3-div2-phone{
+    width: 50vw;
+    height: 50vh;
+    background-image: url("handle.png");
+    background-size: cover;
+    background-position: 50%;
+    flex-grow: 0.5;
+  }
+  .slide3-div3-phone{
+    width: 100vw;
+    height: 50vh;
+    background: linear-gradient(0deg, #FDD36E, #FDD36E), #8EE200;
+  }
+  .slide3-div3-phone h1 {
+    font-family: 'Roboto', sans-serif;
+    width: 90vw;
+    font-size: 11vw;
+    color: white;
+    font-weight: 900;
+    text-align: center;
+    position: relative;
+    top: 10vw;
+    left: 5vw;
+    text-shadow:3px 3px 3px grey; ;
+  }
+  .slide4-phone{
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+  }
+  .div-wraper{
+    width: 100vw;
+    height: 50vh;
+    display: flex;
+  }
+  .slide4-div1-phone{
+    width: 50vw;
+    height: 50vh;
+    background-image: url("handleWithPhone.png");
+    background-size: cover;
+    background-position: 48%;
+    flex-grow: 0.5;
+  }
+  .slide4-div1-phone p{
+    font-size: 6vw;
+    font-weight: 900;
+    text-align: start;
+    position: relative;
+    color: white;
+    top: 40vw;
+    left: 5vw;
+  }
+  .slide4-div2-phone{
+    width: 50vw;
+    height: 50vh;
+    background: linear-gradient(0deg, #AAE04F, #AAE04F), linear-gradient(0deg, #FF6388, #FF6388);
+    flex-grow: 0.5;
+  }
+  .slide4-div2-2-phone{
+    width: 50vw;
+    height: 50vh;
+    background: linear-gradient(0deg, #70C9DD, #70C9DD), linear-gradient(0deg, #803647, #803647);
+    flex-grow: 0.5;
+  }
+
+  .slide4-div3-phone{
+    width: 100vw;
+    height: 50vh;
+    background: linear-gradient(0deg, #FDD36E, #FDD36E), #8EE200;
+  }
+  .slide4-div2-phone h1 {
+    font-family: 'Roboto', sans-serif;
+    width: 43vw;
+    font-size: 6vw;
+    color: white;
+    font-weight: 900;
+    text-align: center;
+    position: relative;
+    top: 35vw;
+    left: 3vw;
+    text-shadow:3px 3px 3px grey; ;
+  }
+  .slide4-div2-2-phone h1 {
+    font-family: 'Roboto', sans-serif;
+    width: 43vw;
+    font-size: 6vw;
+    font-weight: 900;
+    color: white;
+    text-align: center;
+    position: relative;
+    top: 35vw;
+    left: 3vw;
+    text-shadow:3px 3px 3px grey; ;
+  }
+  .slide3-div4-phone{
+    width: 50vw;
+    height: 50vh;
+    background-image: url("code.png");
+    background-size: cover;
+    background-position: 70%;
+    flex-grow: 1;
+  }
+  .slide5-phone{
+    width: 100vw;
+    height: 111vh;
+    background-color: white;
+    color: black;
+  }
+  .slide5-phone h1{
+    font-size: 10vw;
+    position: relative;
+    top: 20vh;
+    right: 10vw;
+  }
+  .slide5-phone p{
+    width: 70vw;
+
+    color: black;
+    margin-bottom: 5vw;
+  }
+  .p-text{
+    text-align: start;
+    left: 5vw;
+    position: relative;
+    top: 40vw;
+    width: 70vw;
+  }
+  img{
+    position: relative;
+    top: 35vw;
+    width: 100vw;
+  }
+  .man{
+    position: relative;
+    z-index: 1;
+    top: -10vw;
+    width: 60vw;
+    height: 40vh;
+
+  }
+  .blue-rect-phone{
+    background-color: #6295F8;
+    width: 100vw;
+    height: 70vw;
+    position: relative;
+  }
+  .blue-rect-phone h1{
+    position: relative;
+    top: -49vw;
+    width: 20vw;
+    z-index: 3;
+    left: 57vw;
+    font-size: 15vw;
+    color: white;
+  }
+  .slide4-button-next-phone{
+    height: 15.5vw;
+    display: block;
+    min-width: 5vw;
+    position: relative;
+    border: none;
+    top:-95.9vw;
+    left: 40vw;
+    background-image: url("arr.svg");
+    align-self: baseline;
+    background-repeat: no-repeat;
+    transform: rotate(180deg);
+    background-position: 50%;
+    z-index: 99999;
+    background-size: 5vw;
+  }
+  .slide4-button-back-phone{
+    height: 15.5vw;
+    display: block;
+    min-width: 15.5vw;
+    position: relative;
+    border: none;
+    top:-80.5vw;
+    left: -43vw;
+    background-image: url("arr.svg");
+    align-self: baseline;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: 5vw;
+
+
+    z-index: 99999;
+  }
+
+  .slies .somes{
+    font-family: 'Roboto', sans-serif !important;
+
+    height: 10vh !important;
+    opacity: 0.05 !important;
+    left: 0 !important;
+    color: black;
+    top: 82vw !important;
+    font-size: 25vw !important;
+    position: relative !important;
+    z-index: 2000 !important;
+    display: block !important;
+  }
+  .slide5-phone{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    width: 100vw;
+
+
+
+  }
+  .slies{
+    position: relative;
+    top: -49vw;
+  }
+  .slide4-button-next-phone{
+    top: -70vw;
+  }
+  .slide4-button-back-phone{
+    top: -55vw;
+  }
+  .slies{
+    z-index: -1;
+    top: -50vw;
+    height: 30vh;
+  }
+  .somes{
+    position: relative;
+    transform: translateY(-30vw)  }
+}
+@media (width: 411px) and  (height: 731px){
+  .h1-container{
+    transform: translateY(20vw);
+  }
+  .title{
+    text-align: start !important;
+    width: 60vw;
+    transform: translateY(-4vw) translateX(15vw);
+
+  }
+  .arr,.slide1-phone,.first-h1-phone,.slide2-phone,.div-wraper,.slide2-div1-phone,.slide2-div2-phone,.slide2-div3-phone,.slide3-phone,.slide3-div1-phone,.slide3-div2-phone,.slide3-div3-phone,.slide4-phone,.div-wraper,.slide4-div1-phone,.slide4-div2-phone,.slide4-div2-2-phone,.slide3-div4-phone{
+    display: block;
+  }
+  .container{
+    top:30vw;
+  }
+  body{
+    overflow: visible;
+  }
+  .arr{
+    display: block;
+    height: 100vh;
+  }
+  .slide1-phone{
+    background-image: url("./firstSlide.png");
+    background-size: 270vw 100vh;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    transition: all 0.5s;
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+  }
+  .first-h1-phone{
+    position: relative;
+    top: 50vw;
+    width: 80vw;
+    text-align: center;
+    left: 10vw;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 13vw;
+    color: white;
+  }
+  .slide2-phone{
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+  }
+  .div-wraper{
+    width: 100vw;
+    height: 50vh;
+    display: flex;
+  }
+  .slide2-div1-phone{
+    width: 50vw;
+    height: 50vh;
+    background-image: url("server.png");
+    background-size: cover;
+    background-position: 100%;
+    flex-grow: 0.5;
+  }
+  .slide2-div1-phone p{
+    font-size: 6vw;
+    font-weight: 900;
+    text-align: start;
+    position: relative;
+    top: 30vw;
+    left: 8vw;
+    color: white;
+  }
+  .slide2-div2-phone{
+    width: 50vw;
+    height: 50vh;
+    background-image: url("laptop.png");
+    background-size: cover;
+    background-position: 70%;
+    flex-grow: 0.5;
+  }
+  .slide2-div3-phone{
+    width: 100vw;
+    height: 50vh;
+    background: linear-gradient(107.59deg, #9933FF 0%, #B97AFF 100%);
+  }
+  .slide2-div3-phone h1 {
+    font-family: 'Roboto', sans-serif;
+    width: 95vw;
+    font-size: 11vw;
+    font-weight: 900;
+    text-align: center;
+    position: relative;
+    top: 20vw;
+    color: white;
+    left: 4vw;
+    text-shadow:  3px 3px 3px grey;
+  }
+  .slide3-phone{
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+  }
+  .div-wraper{
+    width: 100vw;
+    height: 50vh;
+    display: flex;
+  }
+  .slide3-div1-phone{
+    width: 50vw;
+    height: 50vh;
+    background-image: url("manWithPhone.png");
+    background-size: cover;
+    background-position: 70%;
+    flex-grow: 0.5;
+  }
+  .slide3-div1-phone p{
+    font-size: 6vw;
+    font-weight: 900;
+    text-align: start;
+    position: relative;
+    top: 50vw;
+    color: white;
+    left: 5vw;
+  }
+  .slide3-div2-phone{
+    width: 50vw;
+    height: 50vh;
+    background-image: url("handle.png");
+    background-size: cover;
+    background-position: 50%;
+    flex-grow: 0.5;
+  }
+  .slide3-div3-phone{
+    width: 100vw;
+    height: 50vh;
+    background: linear-gradient(0deg, #FDD36E, #FDD36E), #8EE200;
+  }
+  .slide3-div3-phone h1 {
+    font-family: 'Roboto', sans-serif;
+    width: 90vw;
+    font-size: 11vw;
+    color: white;
+    font-weight: 900;
+    text-align: center;
+    position: relative;
+    top: 10vw;
+    left: 5vw;
+    text-shadow:3px 3px 3px grey; ;
+  }
+  .slide4-phone{
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+  }
+  .div-wraper{
+    width: 100vw;
+    height: 50vh;
+    display: flex;
+  }
+  .slide4-div1-phone{
+    width: 50vw;
+    height: 50vh;
+    background-image: url("handleWithPhone.png");
+    background-size: cover;
+    background-position: 48%;
+    flex-grow: 0.5;
+  }
+  .slide4-div1-phone p{
+    font-size: 6vw;
+    font-weight: 900;
+    text-align: start;
+    position: relative;
+    color: white;
+    top: 40vw;
+    left: 5vw;
+  }
+  .slide4-div2-phone{
+    width: 50vw;
+    height: 50vh;
+    background: linear-gradient(0deg, #AAE04F, #AAE04F), linear-gradient(0deg, #FF6388, #FF6388);
+    flex-grow: 0.5;
+  }
+  .slide4-div2-2-phone{
+    width: 50vw;
+    height: 50vh;
+    background: linear-gradient(0deg, #70C9DD, #70C9DD), linear-gradient(0deg, #803647, #803647);
+    flex-grow: 0.5;
+  }
+
+  .slide4-div3-phone{
+    width: 100vw;
+    height: 50vh;
+    background: linear-gradient(0deg, #FDD36E, #FDD36E), #8EE200;
+  }
+  .slide4-div2-phone h1 {
+    font-family: 'Roboto', sans-serif;
+    width: 43vw;
+    font-size: 6vw;
+    color: white;
+    font-weight: 900;
+    text-align: center;
+    position: relative;
+    top: 35vw;
+    left: 3vw;
+    text-shadow:3px 3px 3px grey; ;
+  }
+  .slide4-div2-2-phone h1 {
+    font-family: 'Roboto', sans-serif;
+    width: 43vw;
+    font-size: 6vw;
+    font-weight: 900;
+    color: white;
+    text-align: center;
+    position: relative;
+    top: 35vw;
+    left: 3vw;
+    text-shadow:3px 3px 3px grey; ;
+  }
+  .slide3-div4-phone{
+    width: 50vw;
+    height: 50vh;
+    background-image: url("code.png");
+    background-size: cover;
+    background-position: 70%;
+    flex-grow: 1;
+  }
+  .slide5-phone{
+    width: 100vw;
+    height: 111vh;
+    background-color: white;
+    color: black;
+  }
+  .slide5-phone h1{
+    font-size: 10vw;
+    position: relative;
+    top: 20vh;
+    right: 10vw;
+  }
+  .slide5-phone p{
+    width: 70vw;
+
+    color: black;
+    margin-bottom: 5vw;
+  }
+  .p-text{
+    text-align: start;
+    left: 5vw;
+    position: relative;
+    top: 40vw;
+    width: 70vw;
+  }
+  img{
+    position: relative;
+    top: 35vw;
+    width: 100vw;
+  }
+  .man{
+    position: relative;
+    z-index: 1;
+    top: -10vw;
+    width: 60vw;
+    height: 40vh;
+
+  }
+  .blue-rect-phone{
+    background-color: #6295F8;
+    width: 100vw;
+    height: 70vw;
+    position: relative;
+  }
+  .blue-rect-phone h1{
+    position: relative;
+    top: -49vw;
+    width: 20vw;
+    z-index: 3;
+    left: 57vw;
+    font-size: 15vw;
+    color: white;
+  }
+  .slide4-button-next-phone{
+    height: 15.5vw;
+    display: block;
+    min-width: 5vw;
+    position: relative;
+    border: none;
+    top:-95.9vw;
+    left: 40vw;
+    background-image: url("arr.svg");
+    align-self: baseline;
+    background-repeat: no-repeat;
+    transform: rotate(180deg);
+    background-position: 50%;
+    z-index: 99999;
+    background-size: 5vw;
+  }
+  .slide4-button-back-phone{
+    height: 15.5vw;
+    display: block;
+    min-width: 15.5vw;
+    position: relative;
+    border: none;
+    top:-80.5vw;
+    left: -43vw;
+    background-image: url("arr.svg");
+    align-self: baseline;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: 5vw;
+
+
+    z-index: 99999;
+  }
+
+  .slies .somes{
+    font-family: 'Roboto', sans-serif !important;
+
+    height: 10vh !important;
+    opacity: 0.05 !important;
+    left: 0 !important;
+    color: black;
+    top: 82vw !important;
+    font-size: 25vw !important;
+    position: relative !important;
+    z-index: 2000 !important;
+    display: block !important;
+  }
+  .slide5-phone{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    width: 100vw;
+
+
+
+  }
+  .slies{
+    position: relative;
+    top: -49vw;
+  }
+  .slide4-button-next-phone{
+    top: -70vw;
+  }
+  .slide4-button-back-phone{
+    top: -55vw;
+  }
+  .slies{
+    z-index: -1;
+    top: -50vw;
+    height: 30vh;
+  }
+  .somes{
+    position: relative;
+    transform: translateY(-30vw)  }
+}
+@media (width: 414px) {
+  .h1-container{
+    transform: translateY(20vw);
+  }
+  .title{
+    text-align: start !important;
+    width: 60vw;
+    transform: translateY(-4vw) translateX(15vw);
+
+  }
+  .arr,.slide1-phone,.first-h1-phone,.slide2-phone,.div-wraper,.slide2-div1-phone,.slide2-div2-phone,.slide2-div3-phone,.slide3-phone,.slide3-div1-phone,.slide3-div2-phone,.slide3-div3-phone,.slide4-phone,.div-wraper,.slide4-div1-phone,.slide4-div2-phone,.slide4-div2-2-phone,.slide3-div4-phone{
+    display: block;
+  }
+  body{
+    overflow: visible;
+  }
+  .arr{
+    display: block;
+    height: 100vh;
+  }
+  .slide1-phone{
+    background-image: url("./firstSlide.png");
+    background-size: 270vw 100vh;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    transition: all 0.5s;
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+  }
+  .first-h1-phone{
+    position: relative;
+    top: 50vw;
+    width: 80vw;
+    text-align: center;
+    left: 10vw;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 13vw;
+    color: white;
+  }
+  .slide2-phone{
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+  }
+  .div-wraper{
+    width: 100vw;
+    height: 50vh;
+    display: flex;
+  }
+  .slide2-div1-phone{
+    width: 50vw;
+    height: 50vh;
+    background-image: url("server.png");
+    background-size: cover;
+    background-position: 100%;
+    flex-grow: 0.5;
+  }
+  .slide2-div1-phone p{
+    font-size: 6vw;
+    font-weight: 900;
+    text-align: start;
+    position: relative;
+    top: 30vw;
+    left: 8vw;
+    color: white;
+  }
+  .slide2-div2-phone{
+    width: 50vw;
+    height: 50vh;
+    background-image: url("laptop.png");
+    background-size: cover;
+    background-position: 70%;
+    flex-grow: 0.5;
+  }
+  .slide2-div3-phone{
+    width: 100vw;
+    height: 50vh;
+    background: linear-gradient(107.59deg, #9933FF 0%, #B97AFF 100%);
+  }
+  .slide2-div3-phone h1 {
+    font-family: 'Roboto', sans-serif;
+    width: 95vw;
+    font-size: 11vw;
+    font-weight: 900;
+    text-align: center;
+    position: relative;
+    top: 20vw;
+    color: white;
+    left: 4vw;
+    text-shadow:  3px 3px 3px grey;
+  }
+  .slide3-phone{
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+  }
+  .div-wraper{
+    width: 100vw;
+    height: 50vh;
+    display: flex;
+  }
+  .slide3-div1-phone{
+    width: 50vw;
+    height: 50vh;
+    background-image: url("manWithPhone.png");
+    background-size: cover;
+    background-position: 70%;
+    flex-grow: 0.5;
+  }
+  .slide3-div1-phone p{
+    font-size: 6vw;
+    font-weight: 900;
+    text-align: start;
+    position: relative;
+    top: 50vw;
+    color: white;
+    left: 5vw;
+  }
+  .slide3-div2-phone{
+    width: 50vw;
+    height: 50vh;
+    background-image: url("handle.png");
+    background-size: cover;
+    background-position: 50%;
+    flex-grow: 0.5;
+  }
+  .slide3-div3-phone{
+    width: 100vw;
+    height: 50vh;
+    background: linear-gradient(0deg, #FDD36E, #FDD36E), #8EE200;
+  }
+  .slide3-div3-phone h1 {
+    font-family: 'Roboto', sans-serif;
+    width: 90vw;
+    font-size: 11vw;
+    color: white;
+    font-weight: 900;
+    text-align: center;
+    position: relative;
+    top: 10vw;
+    left: 5vw;
+    text-shadow:3px 3px 3px grey; ;
+  }
+  .slide4-phone{
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+  }
+  .div-wraper{
+    width: 100vw;
+    height: 50vh;
+    display: flex;
+  }
+  .slide4-div1-phone{
+    width: 50vw;
+    height: 50vh;
+    background-image: url("handleWithPhone.png");
+    background-size: cover;
+    background-position: 48%;
+    flex-grow: 0.5;
+  }
+  .slide4-div1-phone p{
+    font-size: 6vw;
+    font-weight: 900;
+    text-align: start;
+    position: relative;
+    color: white;
+    top: 40vw;
+    left: 5vw;
+  }
+  .slide4-div2-phone{
+    width: 50vw;
+    height: 50vh;
+    background: linear-gradient(0deg, #AAE04F, #AAE04F), linear-gradient(0deg, #FF6388, #FF6388);
+    flex-grow: 0.5;
+  }
+  .slide4-div2-2-phone{
+    width: 50vw;
+    height: 50vh;
+    background: linear-gradient(0deg, #70C9DD, #70C9DD), linear-gradient(0deg, #803647, #803647);
+    flex-grow: 0.5;
+  }
+
+  .slide4-div3-phone{
+    width: 100vw;
+    height: 50vh;
+    background: linear-gradient(0deg, #FDD36E, #FDD36E), #8EE200;
+  }
+  .slide4-div2-phone h1 {
+    font-family: 'Roboto', sans-serif;
+    width: 43vw;
+    font-size: 6vw;
+    color: white;
+    font-weight: 900;
+    text-align: center;
+    position: relative;
+    top: 35vw;
+    left: 3vw;
+    text-shadow:3px 3px 3px grey; ;
+  }
+  .slide4-div2-2-phone h1 {
+    font-family: 'Roboto', sans-serif;
+    width: 43vw;
+    font-size: 6vw;
+    font-weight: 900;
+    color: white;
+    text-align: center;
+    position: relative;
+    top: 35vw;
+    left: 3vw;
+    text-shadow:3px 3px 3px grey; ;
+  }
+  .slide3-div4-phone{
+    width: 50vw;
+    height: 50vh;
+    background-image: url("code.png");
+    background-size: cover;
+    background-position: 70%;
+    flex-grow: 1;
+  }
+  .slide5-phone{
+    width: 100vw;
+    height: 111vh;
+    background-color: white;
+    color: black;
+  }
+  .slide5-phone h1{
+    font-size: 10vw;
+    position: relative;
+    top: 20vh;
+    right: 10vw;
+  }
+  .slide5-phone p{
+    width: 70vw;
+
+    color: black;
+    margin-bottom: 5vw;
+  }
+  .p-text{
+    text-align: start;
+    left: 5vw;
+    position: relative;
+    top: 40vw;
+    width: 70vw;
+  }
+  img{
+    position: relative;
+    top: 35vw;
+    width: 100vw;
+  }
+  .man{
+    position: relative;
+    z-index: 1;
+    top: -10vw;
+    width: 60vw;
+    height: 40vh;
+
+  }
+  .blue-rect-phone{
+    background-color: #6295F8;
+    width: 100vw;
+    height: 70vw;
+    position: relative;
+  }
+  .blue-rect-phone h1{
+    position: relative;
+    top: -49vw;
+    width: 20vw;
+    z-index: 3;
+    left: 57vw;
+    font-size: 15vw;
+    color: white;
+  }
+  .slide4-button-next-phone{
+    height: 15.5vw;
+    display: block;
+    min-width: 5vw;
+    position: relative;
+    border: none;
+    top:-95.9vw;
+    left: 40vw;
+    background-image: url("arr.svg");
+    align-self: baseline;
+    background-repeat: no-repeat;
+    transform: rotate(180deg);
+    background-position: 50%;
+    z-index: 99999;
+    background-size: 5vw;
+  }
+  .slide4-button-back-phone{
+    height: 15.5vw;
+    display: block;
+    min-width: 15.5vw;
+    position: relative;
+    border: none;
+    top:-80.5vw;
+    left: -43vw;
+    background-image: url("arr.svg");
+    align-self: baseline;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: 5vw;
+
+
+    z-index: 99999;
+  }
+
+  .slies .somes{
+    font-family: 'Roboto', sans-serif !important;
+
+    height: 10vh !important;
+    opacity: 0.05 !important;
+    left: 0 !important;
+    color: black;
+    top: 82vw !important;
+    font-size: 25vw !important;
+    position: relative !important;
+    z-index: 2000 !important;
+    display: block !important;
+  }
+  .slide5-phone{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    width: 100vw;
+
+
+
+  }
+  .slies{
+    position: relative;
+    top: -49vw;
+  }
+  .slide4-button-next-phone{
+    top: -70vw;
+  }
+  .slide4-button-back-phone{
+    top: -55vw;
+  }
+  .slies{
+    z-index: -1;
+    top: -50vw;
+    height: 30vh;
+  }
+  .somes{
+    position: relative;
+    transform: translateY(-30vw)  }
+}
